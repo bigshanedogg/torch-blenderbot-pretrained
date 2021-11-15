@@ -1,2 +1,2 @@
 # torch-transformer
-torch-transformer, gpt, bert
+Pytorch BlenderBot implementation for microservice and finetuning on huggingface pretrained model
