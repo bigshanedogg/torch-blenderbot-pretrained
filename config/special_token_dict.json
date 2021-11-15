@@ -1,0 +1,70 @@
+{
+  "pad": {
+    "id": 0,
+    "token": "<pad>"
+  },
+  "bos": {
+    "id": 1,
+    "token": "<s>"
+  },
+  "eos": {
+    "id": 2,
+    "token": "</s>"
+  },
+  "unk": {
+    "id": 3,
+    "token": "<unk>"
+  },
+  "mask": {
+    "id": 4,
+    "token": "<mask>"
+  },
+  "num": {
+    "id": 5,
+    "token": "<num>"
+  },
+  "cls": {
+    "id": 6,
+    "token": "<cls>"
+  },
+  "sep": {
+    "id": 7,
+    "token": "<sep>"
+  },
+  "turn": {
+    "id": 8,
+    "token": "<turn>"
+  },
+  "topic": {
+    "id": 9,
+    "token": "<tpc>"
+  },
+  "situation": {
+    "id": 10,
+    "token": "<situ>"
+  },
+  "context": {
+    "id": 11,
+    "token": "<ctxt>"
+  },
+  "condition": {
+    "id": 12,
+    "token": "<cond>"
+  },
+  "candidate": {
+    "id": 13,
+    "token": "<cand>"
+  },
+  "persona": {
+    "id": 14,
+    "token": "<pers>"
+  },
+  "speaker_1": {
+    "id": 15,
+    "token": "<spk1>"
+  },
+  "speaker_2": {
+    "id": 16,
+    "token": "<spk2>"
+  }
+}

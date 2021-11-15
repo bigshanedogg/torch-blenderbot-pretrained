@@ -1,0 +1,22 @@
+{
+  "model_dir": "/home/ubuntu/data/model",
+  "empathetic-bot": {
+    "dialog-generator": {
+      "v2": {"model": "bart", "path": "bart/v2/non_condition/four_n2x8_both/epoch_14"},
+      "latest": {"model": "bart", "path": "bart/v1/non_condition/four_n2x8_both/epoch_7"}
+    },
+    "dialog-retriever": {
+      "latest": {"model": "poly-encoder", "path":  "poly_encoder/v2/four_n2x8_both/epoch_34/"}
+    },
+    "dialog-blender": {
+      "latest": {"model": "blender-bot", "path":  "bart/v2/condition/four_n2x8_both/epoch_6/"}
+    }
+  },
+  "persona-bot": {
+    "dialog-generator": {
+      "naru": {"model": "bart", "path": "bart/v2/non_condition/persona_n2x8_one/epoch_16"}
+    },
+    "dialog-retriever": {
+    }
+  }
+}

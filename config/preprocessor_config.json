@@ -1,0 +1,16 @@
+{
+  "mlm_ratio": 0.15,
+  "random_mask_ratio": 0.1,
+  "skip_mask_ratio": 0.1,
+  "replace_whitespace": true,
+  "remove_symbols": false,
+  "remove_bracket": false,
+  "nltk_prefix": "nltk_{tag}",
+  "mecab_prefix": "mecab_{tag}",
+  "mecab_eng_tag": "SL",
+  "mecab_tag_delimiter": "+",
+  "not_eng_regex": "[ㄱ-ㅣ가-힣]",
+  "whitespace_regex": "\\s+",
+  "remain_regex": "[^ㄱ-ㅣ가-힣a-zA-Z0-9\u4E00-\u9FA5 .,:;`!@#$%%\\^&*\\?~\\(\\)\\{\\}\\[\\]\\_\\-\\+\\=\"']+",
+  "bracket_regex": "\\s?[\\(\\{\\<\\[][\\s+,-_~]*[\\]\\>\\}\\)]\\s?"
+}

@@ -1,0 +1,121 @@
+{
+	"kor_wiki": {
+		"dir":"{dataset_dir}/dataset/",
+		"pickle": "",
+		"feed_data":{
+			"train":"",
+			"valid":"",
+			"test":""
+		}
+	},
+	"Naver_MovieReview": {
+		"root_dir":"{dataset_dir}/dataset/pretraining/Naver_MovieReview",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"train":"",
+			"valid":"",
+			"test":""
+		}
+	},
+	"Naver_NewsComments": {
+		"root_dir":"{dataset_dir}/dataset/pretraining/Naver_NewsComments",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"train":"",
+			"valid":"",
+			"test":""
+		}
+	},
+	"KLUE_DST":{
+		"root_dir": "{dataset_dir}/dataset/conversation/KLUE_DST",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"multi_turn": "{root_dir}/{language}/multi_turn/"
+		}
+	},
+	"NIKL_2020":{
+		"root_dir": "{dataset_dir}/dataset/conversation/NIKL_2020",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"multi_turn": "{root_dir}/{language}/multi_turn/"
+		}
+	},
+	"NIKL_Dialog":{
+		"root_dir": "{dataset_dir}/dataset/conversation/NIKL_Dialog",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"multi_turn": "{root_dir}/{language}/multi_turn/"
+		}
+	},
+	"AIHUB_Twitter":{
+		"root_dir": "{dataset_dir}/dataset/conversation/AIHUB_Twitter",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"multi_turn": "{root_dir}/{language}/multi_turn/"
+		}
+	},
+	"AIHUB_SSGI":{
+		"root_dir": "{dataset_dir}/dataset/conversation/AIHUB_SSGI",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"multi_turn": "{root_dir}/{language}/multi_turn/"
+		}
+	},
+	"AIHUB_EMOTION":{
+		"root_dir": "{dataset_dir}/dataset/conversation/AIHUB_EMOTION",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"multi_turn": "{root_dir}/{language}/multi_turn/"
+		}
+	},
+	"AIHUB_SNS":{
+		"root_dir": "{dataset_dir}/dataset/conversation/AIHUB_SNS",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"multi_turn": "{root_dir}/{language}/multi_turn/"
+		}
+	},
+	"AIHUB_KETI":{
+		"root_dir": "{dataset_dir}/dataset/conversation/AIHUB_KETI",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"multi_turn": "{root_dir}/{language}/multi_turn/"
+		}
+	},
+	"OpenSubtitles":{
+		"root_dir": "{dataset_dir}/dataset/conversation/OpenSubtitles",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"pickle": "{root_dir}/{language}/open_subtitles.pickle",
+		"feed_data":{
+			"multi_turn": "{root_dir}/{language}/multi_turn/"
+		}
+	},
+	"EmpatheticDialogues": {
+		"root_dir":"{dataset_dir}/dataset/conversation/EmpatheticDialogues",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"multi_turn": "{root_dir}/{language}/multi_turn/"
+		}
+	},
+	"KaggleConversation": {
+		"root_dir":"{dataset_dir}/dataset/conversation/KaggleConversation",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"multi_turn": "{root_dir}/{language}/multi_turn/"
+		}
+	},
+	"SelectStar": {
+		"root_dir":"{dataset_dir}/dataset/conversation/SelectStar",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"multi_turn": "{root_dir}/{language}/multi_turn/"
+		}
+	},
+	"SelectStarPersona": {
+		"root_dir":"{dataset_dir}/dataset/conversation/SelectStarPersona",
+		"raw_dir": "{root_dir}/{language}/raw/",
+		"feed_data":{
+			"multi_turn": "{root_dir}/{language}/multi_turn/"
+		}
+	}
+}	
